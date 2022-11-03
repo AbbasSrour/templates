@@ -1,9 +1,5 @@
-/**
- * Created by: Andrey Polyakov (andrey@polyakov.im)
- */
-
 import cn from 'classnames';
-import React, {Suspense, lazy} from 'react';
+import React, {lazy, Suspense} from 'react';
 
 import packageJson from '../../../package.json';
 import {stylesContainer} from './app.module.less';
